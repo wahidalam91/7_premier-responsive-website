@@ -19,7 +19,7 @@ main{
 /* Nav Related Styles */
 
 nav{
-    width: 100%;
+    width: 100vw;
     height: 12vh;
     margin-top: 2vw;
 
@@ -95,6 +95,83 @@ nav{
     display: none;
 }
 
+/* Hero Section Styles */
+#hero{
+    width: 100vw;
+    height: 80vh;
+    padding: 2vw 5vw;
+
+
+}
+
+.hero-content{
+    width: 100%;
+    height: 100%;
+
+    position: relative;
+}
+
+.hero-content video{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+#overlay{
+    width: 80%;
+    height: 30%;
+
+    position: absolute;
+    bottom: 5%;
+    left: 8%;
+}
+
+#overlay-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-bottom: 2px solid #fafafa;
+}
+
+#overlay-top h2{
+    color: #fafafa;
+    font-family: monument;
+    font-size: 3.5vw;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+#overlay-top h3{
+    color: #fafafa;
+    font-size: 2vw;
+    font-weight: 200;
+
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+    border: 1px solid #fafafa;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#overlay-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+#overlay-bottom h4{
+    color: #fafafa;
+    font-size: 1.5vw;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
 
 
 
