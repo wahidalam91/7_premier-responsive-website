@@ -387,11 +387,6 @@ nav{
 }
 
 
-
-
-
-
-
 #page3-content-part2{
     width: 45%;
     height: 100%;
@@ -406,4 +401,38 @@ nav{
 
     border-radius: 1vw;
 
+}
+
+
+/* Page4 Related Styles */
+#page4{
+    width: 100%;
+    height: 100%;
+    padding: 5vw;
+
+    position: relative;
+    
+}
+
+#page4 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#page4-overlay{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #000;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: 12%;
+    left: 92%;
+
+    font-size: 18px;
 }
